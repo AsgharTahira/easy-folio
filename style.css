@@ -2,9 +2,27 @@
     margin: 0%;
     padding: 0%;
 }
-.logo{
-    color: rgb(59, 48, 48);
-    font-weight: 200;
+h2{
+    color: #784D3D;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.p-1{
+    color:#474A4E ;
+    margin-bottom: 50px;
+    font-size: 17px;
+
+}
+.logoBox h4{
+   color: gray;
+    font-weight: 600;
+    font-size: 25px; 
+   
+   
+
+    
 }
 header{
     height: 100px;
@@ -50,40 +68,44 @@ header{
 .heroText p{
     color: rgb(49, 48, 48);
     margin-top: 30px;
+    margin-bottom: 50px;
 }
-.parrentBTN{
+.Buttons{
     display: flex;
-    margin-top: 40px;
 }
-.heroBTN{
-    margin: 0px 30px;
-}
-.viewBtn{
-    padding: 10px 50px;
-    color: white;
-    background-color:#E87532;
-    border-radius: 50px;
-    border: none;
-    font-weight: bold;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-.viewBtn:hover{
-    transform: scale(1.03);
-    transition: .3 ease;
-}
-.connectBtn{
-    padding: 10px 30px;
-    background-color: aliceblue;
+
+
+.Buttons a{
+    text-decoration: none;
     color: #E87532;
-    border-radius:50px;
+    margin:0px 10px;
     border: 1px solid #E87532;
-    font-weight: bold;   
+    padding: 10px 20px;
+    border-radius: 20px;
+
 }
-.connectBtn:hover{
-    color: aliceblue;
+
+
+.view-btn a{
+    color: white;
     background-color: #E87532;
 }
+.view-btn a:hover{
+background-color: #b66537;
+transition: 0.5s ease;
+}
+.connect-btn a:hover{
+    background-color: #E87532;
+    color: white;
+    transition: 0.5s ease;
+}
+ 
+
+
+
+
+
+
 /* about section start */
 .aboutImg img{
     width: 100%;
@@ -93,15 +115,7 @@ header{
     margin-top: 60px;
 
 }
-.about-heading h3{
-    color:#784D3D;
-    font-size: 45px;
-margin: 60px 0px;
-}
-.about-heading p{
-    color:#474A4E ;
-    margin-bottom: 50px;
-}
+
 .orang{
     color: #E87532;
     font-size: 16px;
@@ -152,17 +166,7 @@ p{
     font-size: 26px;
  }
    /* resume section  */
-   .resume-heading{
-    color: #784D3D;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    font-size: 50px;
-    font-weight: 500;
-   }
-   .RH-para{
-    font-size: 17px;
-    margin-bottom: 60px;
-   }
+  
 .work{
  color: #0F2943;
  font-size: 30px;
@@ -216,19 +220,27 @@ margin: 50px 0px;
 .edu-right-2{
 margin: 50px 0px;
 }
-/* folio start */
-.btn input{
-   color: black;
-   padding: 5px 20px;
-   border-radius: 50px;
-   border: none;
-   font-weight: 600;
+/* folio section start */
+.folioButtons ul{
+    display: flex;
+    justify-content:center;
+}
+.folioButtons ul li{
+    list-style: none;
+}
+.folioButtons ul li a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: black;
+   transition: 0.5s ease;
+    padding: 2px 4px;
+    border-radius: 15px;
+   border: 1px solid rgb(209, 206, 206);
 
 }
-.btn input:hover{
+.folioButtons ul li a:hover{
     color: #E87532;
-   transform: scale(1.1);
-   transition: 0.5 ease;
+    background-color: rgb(197, 181, 152);
 }
 .port-headind{
     color: #784D3D;
@@ -259,8 +271,8 @@ margin: 50px 0px;
     color: #E87532;
 }
 .folio-img:hover{
-    transform: scale(1.03);
-    transition: 0.5 ease;
+    transform: scale(1.1);
+    transition: 0.5s ease;
     overflow: hidden;
 }
 .folio-img{
@@ -277,4 +289,55 @@ margin: 50px 0px;
     font-size: 17px;
     color: black;
     line-height: 30px; 
+}
+/* services section start */
+
+.service-heading{
+    color: #203c58;
+    font-size: 35px;
+}
+.service-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-block;
+    height: 100%;
+}
+.service-right p{
+    color: #252627;
+    margin: 25px 0px;
+}
+.service-right a{
+    text-decoration: none;
+  border: 1px solid #c27041;
+    padding: 10px 20px;
+     border-radius:30px;
+     color: #E87532;
+     font-size: 20px;
+    
+}
+.service-right a:hover{
+    background-color: #E87532;
+    color: white;
+    transition: .5s ease;
+}
+
+.services-left i{
+    color: #E87532;
+    font-size: 40px;
+   
+}
+.services-left h4{
+ font-size:18px;
+ color: #1e3952;
+ margin: 20px 0px;   
+}
+.services-left p{
+    color: #474A4E;
+    margin-bottom: 30px;
+}
+.services-left:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+   
 }
