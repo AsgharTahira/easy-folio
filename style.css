@@ -24,6 +24,16 @@ h2{
 
     
 }
+
+.Buttons{
+    position: relative;
+}
+
+.Buttons a:hover{
+    transform: translateY(-10px);
+    position: absolute;
+}
+
 header{
     height: 100px;
     padding-top: 30px;
@@ -70,7 +80,7 @@ header{
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.Buttons{
+/* .Buttons{
     display: flex;
 }
 
@@ -83,6 +93,11 @@ header{
     padding: 10px 20px;
     border-radius: 20px;
 
+} */
+
+.ButtonOuter button:hover{
+    transform: translateY(-10px);
+    transition: .3s ease;
 }
 
 
